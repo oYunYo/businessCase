@@ -1,0 +1,178 @@
+{
+  "voitures": [
+    {
+      "id": 1,
+      "ref": "458763",
+      "marque": "AUDI",
+      "modele": "A1",
+      "description": "1.4 TFSI 125 BVM6 Ambition",
+      "energie": "Essence",
+      "annee": 2017,
+      "nbPortes": 5,
+      "puissanceCV": "125",
+      "CVFiscaux": "6",
+      "boite": "Manuelle",
+      "nbKm": 20300,
+      "prixVente": 18990,
+      "images": [
+        "/assets/img/AudiA1.jpg",
+        "/assets/img/AudiA1_2.jpg",
+        "/assets/img/AudiA1_3.jpg"
+      ],
+      "options": [
+        "Banquette AR 3 places",
+        "Feux de route assistés : gestion automatique du passage de feux de croisement à pleins phares et inversement",
+        "Pack Connectivity",
+        "Pack Rangement et Pack Coffre",
+        "Parking System AR",
+        "Rétroviseur intérieur jour/nuit automatique"
+      ],
+      "couleur": "noire",
+      "dateMiseEnLigne": "2020-03-17T17:55:32.953Z"
+    },
+    {
+      "id": 2,
+      "ref": "458764",
+      "marque": "SKODA",
+      "modele": "Fabia",
+      "description": "1.0 MPI 60 CH BVM5 Active",
+      "energie": "Essence",
+      "annee": 2016,
+      "nbPortes": 5,
+      "puissanceCV": "75",
+      "CVFiscaux": "4",
+      "boite": "Manuelle",
+      "nbKm": 22232,
+      "prixVente": 9990,
+      "images": [
+        "/assets/img/skoda.jpg",
+        "/assets/img/skoda_2.jpg",
+        "/assets/img/skoda_3.jpg",
+        "/assets/img/skoda_4.jpg"
+      ],
+      "options": [
+        "4 Poignées de maintien intégrées au pavillon (2 avec crochet à cintre)",
+        "Accoudoir central AV avec double USB",
+        "Airbags frontaux conducteur et passager (dont passager déconnectable)",
+        "Airbags latéraux AV",
+        "Airbags rideaux AV et AR",
+        "Allumage automatique des feux de détresse en cas d'accident",
+        "Appuis-tête AV réglables en hauteur (non réglables avec la sellerie sport)",
+        "Assistance 24h/24 pendant 7 ans",
+        "Aumônières au dos des sièges AV",
+        "Badge Clever sur le véhicule et seuils de porte",
+        "Boîte à gants inférieure côté passager, fermée éclairée",
+        "Cache-bagages dans le coffre"
+      ],
+      "couleur": "blanche",
+      "dateMiseEnLigne": "2020-03-17T18:55:32.953Z"
+    },
+    {
+      "id": 3,
+      "ref": "458765",
+      "marque": "AIXAM",
+      "modele": "S9",
+      "description": "0.5D GAMME SENSATION 2PL 2P 8CH",
+      "energie": "Diesel",
+      "annee": 2017,
+      "nbPortes": 3,
+      "puissanceCV": "8",
+      "CVFiscaux": "1",
+      "boite": "Automatique",
+      "nbKm": 7076,
+      "prixVente": 8490,
+      "images": [
+        "/assets/img/aixam.jpg",
+        "/assets/img/aixam_2.jpg",
+        "/assets/img/aixam_3.jpg",
+        "/assets/img/aixam_4.jpg"
+      ],
+      "options": [
+        "ABS (système antiblocage des roues)+EBD",
+        "Alarme périmétrique",
+        "Climatisation",
+        "Cloison de séparation habitacle/coffre",
+        "Pack inserts décoratifs alu grainé",
+        "Pack inserts décoratifs bois ébène noir",
+        "Pack inserts décoratifs couleur carrosserie",
+        "Pack inserts décoratifs noir laqué",
+        "Pack inserts décoratifs rouge bordeaux soft et sellerie cuir bicolore",
+        "Parements bas de portes chromés",
+        "Pavillon et becquet de couleur noire"
+      ],
+      "couleur": "grise",
+      "dateMiseEnLigne": "2020-03-17T18:55:32.953Z"
+    },
+    {
+      "id": 5,
+      "ref": "46456456456",
+      "marque": "dfgdfgf",
+      "modele": "fdgfdgdfg",
+      "description": "dfgfdgfdg",
+      "energie": "dfgfdgdfg",
+      "annee": 1987,
+      "nbPortes": 3,
+      "puissanceCV": "125",
+      "CVFiscaux": "452",
+      "boite": "dfgfdgfdg",
+      "nbKm": 454545,
+      "prixVente": 4548666,
+      "images": [
+        "cvbn,nbvc"
+      ],
+      "options": [
+        "cvbn,nbvc"
+      ],
+      "couleur": "noire"
+    },
+    {
+      "id": 4545,
+      "ref": "45454545",
+      "marque": "cvhnvbnv,",
+      "modele": "dcvbn",
+      "description": "xcvbn",
+      "energie": "xcvbn",
+      "annee": 2020,
+      "nbPortes": 5,
+      "puissanceCV": "45",
+      "CVFiscaux": "5",
+      "boite": "vcbnvc",
+      "nbKm": 45412,
+      "prixVente": 24521,
+      "images": [
+        "cvbn,nbvc"
+      ],
+      "options": [
+        "cvbn,nbvc"
+      ],
+      "couleur": "violet"
+    },
+    {
+      "id": 45454844,
+      "ref": "45445",
+      "marque": "hgjb,v",
+      "modele": "fcgvnhbv ",
+      "description": "fdgfd",
+      "energie": "fghfd",
+      "annee": 2040,
+      "nbPortes": 7,
+      "puissanceCV": "45",
+      "CVFiscaux": "545",
+      "boite": "gfhgd",
+      "nbKm": 4545,
+      "prixVente": 4545
+    },
+    {
+      "id": 45454845
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "nom": "Dupont",
+      "prenom": "Test",
+      "adresse": "adresse",
+      "email": "email"
+    }
+  ]
+}

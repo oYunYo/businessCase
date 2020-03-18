@@ -1,0 +1,134 @@
+/*Pour mettre une police en fichier
+
+@font-face{
+	font-family: 'metropolis';
+	src: url('metropolis/WOFF/metropolis-Regular.woff') format('woff');
+}
+
+body{
+	font-family: 'metropolis'; 
+}
+
+
+*/
+
+#slide{
+	background-image: url("img/Honda-XR-V-orange-and-blue-SUV-car_3840x2160.jpg");
+  background-position: center;
+  background-size: cover;
+  /* background: no-repeat; */
+  height: 60vh;
+}
+
+#barreDeRecherche{
+	background: #ffffff94;
+	border-radius: 5px;
+}
+
+#meilleurPrix{
+	background: #F18F01;
+	font-size: 2rem;
+}
+
+footer{
+	background: #00B2F2;
+	background-size: cover;
+}
+
+#petitFooter{
+	background: #94dffa;
+	background-size: cover;
+	font-size: 0.8rem;
+}
+
+#produits h2{
+	font-size: 1.5rem;
+}
+
+.prix{
+	font-size: 1.5rem;
+}
+
+.description{
+	font-size: 0.8rem;
+}
+
+#lesTroisboutons button{
+	border-color: #F18F01;
+}
+
+/*LES 3 CURSEURS*/
+
+/*LA POSITION DE LA BARRE, SA LONGUEUR*/
+
+input[type='range'] {
+  width: 210px;
+  height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+    outline: none;
+}
+
+/*LA FORME ARRONDIE*/
+
+input[type='range'],
+input[type='range']::-webkit-slider-runnable-track,
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+    background: none;
+}
+
+/*LA BARRE EN ELLE-MÊME*/
+
+input[type='range']::-webkit-slider-runnable-track {
+  width: 200px;
+  height: 1px;
+  background: black;
+}
+
+/*input[type='range']:nth-child(2)::-webkit-slider-runnable-track{
+  background: none;
+}
+*/
+
+/*LES PETITS RONDS*/
+
+input[type='range']::-webkit-slider-thumb {
+  position: relative;
+  height: 15px;
+  width: 15px;
+  margin-top: -7px;
+  background: #fff;
+  border: 1px solid #F18F01;
+  border-radius: 25px;
+  z-index: 1;
+}
+
+
+input[type='range']:nth-child(1)::-webkit-slider-thumb{
+  z-index: 2;
+}
+
+.rangeslider{
+    position: relative;
+    height: 60px;
+    width: 210px;
+    display: inline-block;
+    margin-top: -5px;
+    margin-left: 20px;
+}
+.rangeslider input{
+    position: absolute;
+}
+
+.rangeslider span{
+    position: absolute;
+    margin-top: 30px;
+    left: 0;
+}
+
+.rangeslider .right{
+   position: relative;
+   float: right;
+   margin-right: -5px;
+}

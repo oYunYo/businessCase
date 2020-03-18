@@ -1,0 +1,22 @@
+<!-- LES PRODUITS -->
+
+<section id="produits" class="container my-5">
+
+	<div class="row justify-content-around">
+
+		<div *ngFor="let voiture of voitures" class="col-sm-4">
+			<img *ngIf="voiture?.images && voiture.images.length > 0" class="img-fluid mb-3" src="{{ voiture.images[0] }}" alt="Audi A1 noire">
+				<div class="row">
+					<div class="col-sm-6 description">
+						<h2>{{voiture.marque}} {{voiture.modele}}</h2>
+						<p>{{voiture.description}}</p>
+						<p>{{voiture.energie}} / {{voiture.annee}} / {{voiture.nbKm}} km</p>
+					</div>
+					<div class="col-sm-6 prix">
+						<p>{{voiture.prixVente}} €</p>
+					</div>
+				</div>
+		</div>
+
+	</div>
+</section>

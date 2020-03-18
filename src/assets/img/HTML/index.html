@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Business Case Victoria</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/5adfc536af.js" crossorigin="anonymous"></script> <!--FONTAWESOME -->
+	<link type="text/css" rel="stylesheet" href="css/custom-bootstrap.css" />
+	<link type="text/css" rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<!-- NAVIGATION -->
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white container-fluid">
+	<div class="container">
+	<a class="navbar-brand" href="#"><img src="img/logo.svg" class="logo" alt="logo de Autoccasion"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+		<li class="nav-item active">
+			<a class="nav-link" href="#">Nos garanties</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Besoin d'aide ?</a>
+		</li>
+		</ul>
+		<div class="m-2">
+			<a class="btn btn-danger text-white my-2 my-lg-0" href="#" role="button">CONTACTEZ-NOUS</a> <!-- DANGER = MA COULEUR ORANGE -->
+		</div>
+	</div>
+</div>
+</nav>
+
+<!-- SLIDE -->
+
+<section id="slide">
+
+<!-- PUB AVEC TEXTE ET VOITURE -->
+
+	<div id="communication" class="container-fluid">
+		<div class="row">
+			<div class="col-sm-6 d-flex flex-column justify-content-center">
+				<h1 class="text-right p-0 m-0">Offrez-vous une voiture</h1>
+				<p id="meilleurPrix" class="text-right text-white strong">nous négocions pour vous le meilleur prix</p>
+			</div>
+			<!-- VOITURE SEULE -->
+			<!-- <div class="col-sm-4">
+				<img class="img-fluid" src="img/slide.png" alt="une voiture renault bleue">
+			</div> -->
+		</div>
+	</div>
+
+<!-- BARRE DE RECHERCHE -->
+
+	<!-- <div class="d-flex align-items-end"> -->
+	<h2 class="text-center text-white text-regular">Je recherche la voiture de mes rêves <i class="fas fa-search"></i></h2>
+	<div id="barreDeRecherche" class="container">
+	<!-- </div> -->
+
+<!-- LES 3 BOUTONS -->
+
+		<div id="lesTroisboutons" class="container p-3">
+			<div class="row justify-content-around">
+	  			<div class="col-3 dropdown">
+				  <button class="btn bg-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    Marque
+				  </button>
+				  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				    <a class="dropdown-item" href="#">Action</a>
+				    <a class="dropdown-item" href="#">Another action</a>
+				    <a class="dropdown-item" href="#">Something else here</a>
+				  </div>
+				</div>
+				<div class="col-3 dropdown">
+				  <button class="btn bg-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    Modèle
+				  </button>
+				  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				    <a class="dropdown-item" href="#">Action</a>
+				    <a class="dropdown-item" href="#">Another action</a>
+				    <a class="dropdown-item" href="#">Something else here</a>
+				  </div>
+				</div>
+				<div class="col-3 dropdown">
+				  <button class="btn bg-white dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    Carburant
+				  </button>
+				  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+				    <a class="dropdown-item" href="#">Action</a>
+				    <a class="dropdown-item" href="#">Another action</a>
+				    <a class="dropdown-item" href="#">Something else here</a>
+				  </div>
+				</div>
+			</div>
+		</div>
+		
+
+<!-- LES 3 CURSEURS -->
+
+		<div id="lesTroiscurseurs" class="container">
+			<div class="row">
+				 
+				<div id="annee" class="rangeslider col-3">
+					<p class="text-center">Année de mise en circulation</p>
+                    <input class="min" name="range_1" type="range" min="1" max="100" value="10" />
+                    <input class="max" name="range_1" type="range" min="1" max="100" value="90" />
+                    <span class="range_min light left">10.000 €</span>
+                    <span class="range_max light right">90.000 €</span>
+                </div>
+
+                <div id="kilometrage" class="rangeslider col-3">
+                	<p class="text-center">Kilométrage</p>
+                    <input class="min" name="range_1" type="range" min="1" max="100" value="10" />
+                    <input class="max" name="range_1" type="range" min="1" max="100" value="90" />
+                    <span class="range_min light left">10.000 €</span>
+                    <span class="range_max light right">90.000 €</span>
+                </div>
+
+                <div id="prix" class="rangeslider col-3">
+                	<p class="text-center">Prix</p>
+                    <input class="min" name="range_1" type="range" min="1" max="100" value="10" />
+                    <input class="max" name="range_1" type="range" min="1" max="100" value="90" />
+                    <span class="range_min light left">10.000 €</span>
+                    <span class="range_max light right">90.000 €</span>
+                </div>
+
+			</div>
+		</div>
+
+	</div> <!-- DIV QUI FERME BARRE DE RECHERCHE SUR FOND BLANC -->
+</section>
+
+<!-- LES PRODUITS -->
+
+<section id="produits" class="container my-5">
+
+	<div class="row justify-content-around">
+
+		<div class="col-sm-4">
+			<img class="img-fluid mb-3" src="img/AudiA1.jpg" alt="Audi A1 noire">
+				<div class="row">
+					<div class="col-sm-6 description">
+						<h2>AUDI A1</h2>
+						<p>1.4 TFSI 125 BVM6 Ambition</p>
+						<p>Essence / 2017 / 20 300 km</p>
+					</div>
+					<div class="col-sm-6 prix">
+						<p>18 990 €</p>
+					</div>
+				</div>
+		</div>
+
+		<div class="col-sm-4">
+			<img class="img-fluid mb-3" src="img/skoda.jpg" alt="Skoda Fabia blanche">
+				<div class="row">
+					<div class="col-sm-6 description">
+						<h2>SKODA FABIA</h2>
+						<p>1.0 MPI 60 CH BVM5 Active</p>
+						<p>Essence / 2016 / 22 232 km</p>
+					</div>
+					<div class="col-sm-6 prix">
+						<p>9 990 €</p>
+					</div>
+				</div>
+		</div>
+
+		<div class="col-sm-4">
+			<img class="img-fluid mb-3" src="img/aixam.jpg" alt="Aixam S9 grise">
+				<div class="row">
+					<div class="col-sm-6 description">
+						<h2>AIXAM S9</h2>
+						<p>0.5D GAMME SENSATION 2PL 2P 8CH</p> 
+						<p>Diesel / 2017 / 7076 km</p>
+					</div>
+					<div class="col-sm-6 prix m-auto">
+						<p>8 490 €</p>
+					</div>
+				</div>
+		</div>
+
+	</div>
+</section>
+
+<!-- FOOTER -->
+
+<footer class="py-2">
+	<div class="container">
+		<div class="row justify-content-around">
+			<div class="col-sm-4">
+				<p class="text-center text-sm-left">Retrouvez nos annonces sur</p>
+				<div class="d-flex justify-content-around"><img src="img/facebook.svg" class="logo" alt="nos annonces sur Facebook"><img src="img/twitter.svg" class="logo" alt="nos annonces sur Twitter"><img src="img/linkedin.svg" class="logo" alt="nos annonces sur LinkedIn"></div>
+			</div>
+			<div class="col-sm-4">
+				<p class="text-center text-sm-left">UNE QUESTION ?</p>
+				<p class="text-center text-sm-left"><i class="fas fa-phone-alt"></i> Tel. 04 76 76 76 76</p>
+				<p class="text-center text-sm-left">Formulaire de contact</p>
+				<p class="text-center text-sm-left">Nous répondons sous 24h du lundi au samedi hors weekends et jours fériés.</p>
+			</div>
+			<div class="col-sm-4 my-auto">
+				<a class="btn btn-danger text-white my-2 my-lg-0 m-sm-auto" href="#" role="button">ESPACE PROFESSIONNEL</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- PETIT FOOTER PLUS CLAIR -->
+
+<section id="petitFooter" class="pt-3">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-4">
+				<p>© copyright Autoccasion 2020</p>
+			</div>
+			<div class="col-sm-2 p-1">
+				<p>Conditions générales d'utilisation</p>
+			</div>
+			<div class="col-sm-2 p-1">
+				<p>Mentions légales</p>
+			</div>
+			<div class="col-sm-2 p-1">
+				<p>Politiques de confidentitalités</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<!-- d-none
+d-sm-block -->
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<!-- Mon JS -->
+	<script src="script.js"></script>
+<!-- Les curseurs -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+</body>
+</html>
