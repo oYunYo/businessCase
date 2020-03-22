@@ -121,12 +121,12 @@
   
       <div class="form-group">
         <label>Image 1 de la voiture</label>
-        <input type="text" class="form-control"
+        <input *ngIf="voitureForm.images" type="text" class="form-control"
               required name="images" #images="ngModel"
               [(ngModel)]="voitureForm.images[0]">
-        <div *ngIf="!images.valid" class="error">
+        <!-- <div *ngIf="!images.valid" class="error">
           <p class="text-warning">Erreur ce n'est pas une image</p>
-        </div>
+        </div> -->
       </div>
 
       <div class="form-group">
@@ -149,6 +149,6 @@
         </div>
       </div>
   
-      <button [disabled]="!formVoitureValidation.valid" class="btn btn-success" type="submit">Enregistrer la voiture</button>
+      <button [disabled]="!formVoitureValidation.valid" id='#addVoitureLink' class="btn btn-success" type="submit">Enregistrer la voiture</button>
     </form>
   </div>

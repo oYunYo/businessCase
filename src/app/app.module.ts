@@ -16,6 +16,10 @@ import { VoitureComponent } from './components/voiture/voiture.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ColorPickerComponent } from './components/color-picker/color-picker.component';
+import { ModalComponent } from './components/modal/modal.component';
+import { TabsComponent } from './components/tabs/tabs.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
+import { CollapseModule } from 'ngx-bootstrap';
 
 
 
@@ -31,14 +35,19 @@ import { ColorPickerComponent } from './components/color-picker/color-picker.com
     SmallFooterComponent,
     BigFooterComponent,
     VoitureComponent,
-    ColorPickerComponent
+    ColorPickerComponent,
+    ModalComponent,
+    TabsComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    CollapseModule.forRoot()
+
   ],
   providers: [],
   bootstrap: [AppComponent]

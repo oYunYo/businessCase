@@ -12,7 +12,7 @@ export class Voiture {
     boite: string;
     nbKm: number;
     prixVente: number;
-    images: [string];
+    images: string[];
     options: [string];
     couleur: string;
     dateMiseEnLigne: Date;
