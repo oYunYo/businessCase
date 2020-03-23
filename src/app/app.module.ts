@@ -20,6 +20,7 @@ import { ModalComponent } from './components/modal/modal.component';
 import { TabsComponent } from './components/tabs/tabs.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { CollapseModule } from 'ngx-bootstrap';
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 
 
@@ -46,7 +47,8 @@ import { CollapseModule } from 'ngx-bootstrap';
     BrowserAnimationsModule,
     FormsModule,
     HttpClientModule,
-    CollapseModule.forRoot()
+    CollapseModule.forRoot(),
+    ModalModule.forRoot()
 
   ],
   providers: [],
